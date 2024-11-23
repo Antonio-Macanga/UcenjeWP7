@@ -4,5 +4,4 @@
 
 create table vjezbam(
 naziv varchar(50)
-
 );
