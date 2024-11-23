@@ -2,7 +2,7 @@
 
 --use zadaca
 
-create table smjer(
+create table SMJER(
 naziv varchar(50)
 
 );
