@@ -1,6 +1,6 @@
---create database zadaca;
+--create database ZADACA;
 
---use zadaca
+--use ZADACA
 
 create table SMJER(
 naziv varchar(50)
