@@ -1,4 +1,4 @@
---create database posao
+--create database posao;
 
 --use posao
 
