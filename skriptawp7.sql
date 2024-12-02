@@ -11,9 +11,9 @@ use edunovawp7;
 go
 
 create table smjerovi(
-sifra int not null primary key identity(1,1),
+sifra int not null primary key identity(1,1), --primarni kljuc
 naziv varchar(50) not null,
-trajanje int null, 
+trajanje int null, --null se ne mora pisat
 cijena decimal(18,2),
 vaucer bit, 
 izvodiseod datetime
@@ -30,7 +30,7 @@ email varchar(100) not null
 create table grupe(
 sifra int not null primary key identity(1,1),
 naziv varchar(20) not null,
-smjer int not null references smjerovi(sifra),
+smjer int not null references smjerovi(sifra), --vanjski kljuc
 predavac varchar(50)
 );
 
