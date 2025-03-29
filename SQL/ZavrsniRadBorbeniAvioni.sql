@@ -2,7 +2,7 @@
 go
 drop database if exists borbeniAvioni;
 go
-create database borbeniAvioni;
+create database borbeniAvioni collate Croatian_CI_AS; 
 go
 use borbeniAvioni;
 go
